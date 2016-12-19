@@ -1,1 +1,0 @@
-# jpvincent.github.io
