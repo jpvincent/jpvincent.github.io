@@ -4,10 +4,13 @@ title:  "Les manques à gagner de la publicité pour les éditeurs"
 date:   2016-12-21 16:04:21 +0100
 ---
 
-<blockquote>Cet article et <a href="http://braincracking.org/?p=1197">le précédent, plus technique, sur les tiers classiques</a> sont une transcription d’une conférence donnée à Blend Web Mix 2016. <a href="https://www.youtube.com/watch?v=7tbTm1Jo0gE">Cliquez ici si vous êtes plus audio que texte</a>.</blockquote>
-<h1>La publicité et les performances</h1>
+> Cet article et [le précédent, plus technique, sur les tiers classiques]({% post_url 2016-12-21-combien-coute-un-service-tiers-gratuit %}) sont une transcription d’une conférence donnée à Blend Web Mix 2016. [Cliquez ici si vous êtes plus audio que texte](https://www.youtube.com/watch?v=7tbTm1Jo0gE).
+
+
+# La publicité et les performances
 Mettre "pub" et "perf" dans la même phrase fait rire jaune tout travailleur du Web. Le peu de fois où nous désactivons nos adblockers, nous nous demandons comment font "les gens" pour arriver à naviguer. Le peu de fois où nous testons le site sur autre chose que nos mobiles personnels, généralement performants, nous prenons notre mal en patience car c’est pour le travail. Les vrais utilisateurs eux, sont déjà partis.
-<h2>Performance perçue et Performance business</h2>
+
+## Performance perçue et Performance business
 Il y a des palanquées de chiffres démontrant la relation business/temps de chargement, regardez ne serait-ce que cette <a href="https://wpostats.com/tags/2016/">collection 2016 chez wpostats</a> (communautaire) ou ces <a href="https://www.dareboost.com/fr/webperf-impacts">traductions en français chez Dareboost</a> (solution commerciale). Laissez moi vous sortir quelques chiffres de chez mes clients.
 
 [caption id="attachment_1229" align="alignnone" width="1091"]<a href="http://braincracking.org/wp-content/uploads/2016/12/onfocus.png"><img class="size-full wp-image-1229" alt="courbe de nombre de pages vues par session pour chaque temps de chargement" src="http://braincracking.org/wp-content/uploads/2016/12/onfocus.png" width="1091" height="509" /></a> une très classique relation engagement / temps de chargement[/caption]
@@ -15,9 +18,10 @@ Il y a des palanquées de chiffres démontrant la relation business/temps de cha
 Cette courbe (réalisée avec le produit commercial <a href="http://webperf.io/">webperf.io</a>) est assez classique et range les utilisateurs par temps de chargement (axe horizontal) et indique pour chaque segment le taux d’engagement (plus c’est haut, plus il consomme). Ici c’est un site de presse, donc c’est le nombre de pages consommées par session. Comme souvent, on voit que les utilisateurs sont moins consommateurs lorsque leurs pages se chargent en plus de 5 secondes. Puis au-delà de 20 secondes, la courbe s'aplanit, car ne restent que les fidèles et les motivés. Je précise que j'ai généré cette courbe en filtrant pour n’avoir que les utilisateurs Windows, afin de ne pas être influencé par les mobiles.
 
 Autre constat en fouillant les chiffres :
-<blockquote>Les utilisateurs avec adblock ont un engagement 50% supérieur aux autres</blockquote>
+> Les utilisateurs avec adblock ont un engagement 50% supérieur aux autres
+
 Quand on sait que la majorité des temps de chargement sont consacrés à la seule publicité, il devient évident que cette source de revenus a un coût qui dépasse de loin ce qui est écrit sur le contrat avec la régie.
-<h2>Comment louper 85% des internautes français</h2>
+## Comment louper 85% des internautes français
 Avec quoi vos utilisateurs mobiles naviguent-ils ? Vous trouverez sans doute dans vos analytics les modèles de smartphones et tablettes. Prenez le top 25 et allez récupérer pour chaque modèle son prix de vente actuel, occasions comprises (surtout pour les iPhones). Chez 3 clients (2 journaux, 1 site de e-commerce) j’obtiens à peu près la même valeur moyenne : 380€.
 En voyant ces stats, je me suis longtemps dit que les français étaient plutôt privilégiés par rapport à leurs voisins et pouvaient mettre de beaux budgets dans leurs smartphones (merci Free ?). Jusqu'à ce que je trouve les prix d’achat du marché français des smartphones :
 

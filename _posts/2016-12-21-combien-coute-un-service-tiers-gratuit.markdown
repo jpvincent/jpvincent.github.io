@@ -3,12 +3,13 @@ layout: post
 title:  "Combien coûte un service tiers gratuit ?"
 date:   2016-12-21 16:04:21 +0100
 ---
+
 Vous auriez tort de croire que la réponse est à moitié dans le titre : n’importe quel script ou service externe que vous rajoutez à votre site va vous coûter quelque chose, qu’il soit gratuit ou pas.
 
-<blockquote>Cet article et <a href="http://braincracking.org/?p=1256">le suivant sur les pubs</a> sont une transcription d’une conférence donnée à Blend Web Mix 2016. <a href="https://www.youtube.com/watch?v=7tbTm1Jo0gE">Cliquez ici si vous êtes plus audio que texte</a>.
-</blockquote>
+> Cet article et [le suivant sur les pubs]({% post_url 2016-12-21-les-manques-a-gagner-de-la-publicite-pour-les-editeurs %}) sont une transcription d’une conférence donnée à Blend Web Mix 2016. [Cliquez ici si vous êtes plus audio que texte](https://www.youtube.com/watch?v=7tbTm1Jo0gE).
 
-De quels coûts parle-t-on ?
+
+# De quels coûts parle-t-on ?
 Ma spécialité étant la performance frontend, j'ai dû m’attaquer au sujet pour des raisons techniques qui m’ont amené à constater que les dégradations en qualité et en performance perçue se traduisaient par un certain nombre de coûts cachés:
 <ol>
   <li>des <strong>pertes sèches d’activité</strong></li>
