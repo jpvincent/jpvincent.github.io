@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Performances Web HTML5 et JavaScript par Jean-Pierre Vincent, pour BrainCracking
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: /:categories/:year/:month/:day/:title # on supprime le .html final pour faire marcher les anciens liens
+# permalink: /:categories/:year/:month/:day/:title/ # on supprime le .html final pour faire marcher les anciens liens
 twitter_username: theystolemynick
 github_username:  jpvincent
 
